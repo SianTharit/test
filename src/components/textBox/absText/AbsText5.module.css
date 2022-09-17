@@ -1,0 +1,37 @@
+.wrapper {
+   display: flex;
+   align-items: center;
+   position: relative;
+   width: max-content;
+}
+
+.wrapper_text {
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+   align-items: center;
+   padding: 0.5rem 1.5rem;
+}
+
+.wrapper_line {
+   position: relative;
+   width: max-content;
+}
+
+.line {
+   content: "";
+   width: 1.5rem;
+   height: 1px;
+   background-color: var(--color-line);
+}
+
+.line2 {
+   content: "";
+   width: 1.5rem;
+   height: 1px;
+   background-color: var(--color-line);
+   transform: rotate(60deg);
+   position: absolute;
+   right: 1.1rem;
+   bottom: 0.7rem;
+}

@@ -1,0 +1,171 @@
+.wrapper {
+   display: flex;
+   align-items: center;
+   position: relative;
+   width: max-content;
+}
+
+.wrapper:hover .div1 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div2 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div3 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div4 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+
+.div1 {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 20.2rem;
+   left: 14.5rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(-20deg);
+}
+
+.div1_active {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 20.2rem;
+   left: 14.5rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(-20deg);
+}
+
+.div2 {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 15.5rem;
+   left: 19rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+}
+
+.div2_active {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 15.5rem;
+   left: 19rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+}
+
+.div3 {
+   width: 2.3rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 13.6rem;
+   left: 22.7rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(-5deg);
+}
+
+.div3_active {
+   width: 2.3rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 13.6rem;
+   left: 22.7rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(-5deg);
+}
+
+.div4 {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 14.7rem;
+   left: 27.2rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+}
+
+.div4_active {
+   width: 2.2rem;
+   height: 1.7rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 14.7rem;
+   left: 27.2rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+}

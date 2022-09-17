@@ -1,0 +1,49 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.actions {
+   text-align: center;
+}
+
+.actions button {
+   width: 100%;
+   font: inherit;
+   cursor: pointer;
+   color: white;
+   border: 1px solid var(--color-primary-variant);
+   background: linear-gradient(
+      90deg,
+      var(--color-primary) 0%,
+      var(--color-primary-variant) 65%
+   );
+   padding: 1rem;
+   border-radius: 0.8rem;
+}
+
+.actions button:active {
+   background: linear-gradient(
+      90deg,
+      var(--color-primary) 0%,
+      var(--color-primary-variant) 65%
+   );
+   color: white;
+   border: none;
+}
+
+.actions_button {
+   text-align: center;
+}
+
+.actions_button button {
+   width: 100%;
+   font: inherit;
+   border: 1px solid #999999;
+   background-color: #cccccc;
+   color: #666666;
+   cursor: pointer;
+   padding: 1rem;
+   border-radius: 0.8rem;
+}

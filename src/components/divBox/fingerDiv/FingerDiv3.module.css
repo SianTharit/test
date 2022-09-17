@@ -1,0 +1,218 @@
+.wrapper {
+   display: flex;
+   align-items: center;
+   position: relative;
+   width: max-content;
+}
+
+.wrapper:hover .div1 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div2 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div3 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+.wrapper:hover .div4 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+
+.wrapper:hover .div5 {
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   cursor: pointer;
+}
+
+.div1 {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 19.2rem;
+   left: 15.9rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(-18deg);
+}
+
+.div1_active {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 19.2rem;
+   left: 15.9rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(-18deg);
+}
+
+.div2 {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 17.8rem;
+   left: 18.8rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(-19deg);
+}
+
+.div2_active {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 17.8rem;
+   left: 18.8rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(-19deg);
+}
+
+.div3 {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 16.8rem;
+   left: 22rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(-3deg);
+}
+
+.div3_active {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 16.8rem;
+   left: 22rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(-3deg);
+}
+
+.div4 {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 16.8rem;
+   left: 25.4rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(9deg);
+}
+
+.div4_active {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 16.8rem;
+   left: 25.4rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(9deg);
+}
+
+.div5 {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 24.3rem;
+   left: 30.2rem;
+   z-index: 100;
+   background: transparent;
+   border: transparent;
+   cursor: pointer;
+   transform: rotate(40deg);
+}
+
+.div5_active {
+   width: 3rem;
+   height: 2rem;
+   border-radius: 20px;
+   display: block;
+   position: absolute;
+   top: 24.3rem;
+   left: 30.2rem;
+   z-index: 100;
+   background: linear-gradient(
+      180deg,
+      var(--color-secondary) 0%,
+      var(--color-secondary-variant) 70%
+   );
+   border: 2px solid var(--color-primary);
+   cursor: pointer;
+   transform: rotate(40deg);
+}
